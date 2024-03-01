@@ -10,4 +10,3 @@ exten => 234567890,1,Answer()
  same => n,NoOp(Customer phone number ${phone_number})
  same => n,Espeak("Hello ${first_name}, you have an offer, Two, zero, six, seven, three, eight, seven, three, seven, zero. I repeat: two, zero, six, seven, three, eight, seven, three, seven, zero..",any)
  same => n,Hangup()
-
